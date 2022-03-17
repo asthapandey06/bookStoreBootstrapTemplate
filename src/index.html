@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- header section -->
+        <div id="header" class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <nav class="navbar navbar-expand-sm  navbar-light text-dark">
+                    <!-- Brand/logo -->
+                    <div id="logo" class="mx-5">
+                        <a class="navbar-brand text-dark" href="#">
+                            <img src="images/bookLogo.jpeg" alt="logo" style="width:100px;"><b>ABC</b> Books
+                        </a>
+                    </div>
+
+                    <div id="navbar" class="mx-5">
+                        <!-- Nav Links -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item mx-5">
+                                <input type="text" placeholder="Search book by author and publisher"
+                                    class="rounded-pill pe-5 py-2">
+                                <i class="fa fa-search text-danger h-5" aria-hidden="true"></i>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">Track Order</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <i class="fa fa-shopping-cart"></i>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn btn-danger rounded-pill">Sign In</button>
+                            </li>
+                        </ul>
+                </nav>
+
+            </div>
+
+
+            <div class="col-md-12">
+                <!-- 2nd nav header section-->
+                <nav class="navbar navbar-expand-sm  navbar-light text-dark d-flex justify-content-center">
+                    <div id="navbar" class="mx-5">
+                        <!-- Nav Links -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">Categories</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">Pages</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+
+            <div class="col-md-12">
+
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide mx-5 my-5" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <img src="images/sunset.jpeg" alt="Los Angeles" class="d-block w-100">
+                            <div class="carousel-caption d-flex flex-column align-items-center h-50">
+                                <h1>The history <br>of Philipino</h1>
+                                <button class="btn btn-danger rounded-pill py-2 mx-0">Browse Store</button>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/sunset2.jpeg" alt="sunset2" class="d-block w-100">
+                            <div class="carousel-caption d-flex flex-column align-items-center h-50">
+                                <h1>The history<br> of Philipino</h1>
+                                <button class="btn btn-danger rounded-pill py-2 mx-0">Browse Store</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/sunset3.jpeg" alt="sunset3" class="d-block w-100">
+                            <div class="carousel-caption d-flex flex-column align-items-center h-50">
+                                <h1>The history <br>of Philipino</h1>
+                                <button class="btn btn-danger rounded-pill py-2 mx-0">Browse Store</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <!-- content section -->
+        <div id="content" class="row">
+          <div class="col-md-2">
+                <div class="card img-fluid">
+                    <img src="images/book1.jpeg" alt="book1">
+                    <span class="h5">Moon Dance</span>
+                        <span class="text-muted">JR. Rain</span>
+                        <span class="card-text">
+                    <span>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                    </span><br>
+                    <span>(<span class="text-danger"> 120 </span><span class="text-muted">Reviews</span>)</span>
+                    <span class="text-danger h3 ps-5">$50</span>
+                    </span>
+                    
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card img-fluid">
+                    <img src="images/book1.jpeg" alt="book1">
+                    <span class="h5">Moon Dance</span>
+                        <span class="text-muted">JR. Rain</span>
+                        <span class="card-text">
+                    <span>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                    </span><br>
+                    <span>(<span class="text-danger"> 120 </span><span class="text-muted">Reviews</span>)</span>
+                    <span class="text-danger h3 ps-5">$50</span>
+                    </span>
+                    
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card img-fluid">
+                    <img src="images/book1.jpeg" alt="book1">
+                    <span class="h5">Moon Dance</span>
+                        <span class="text-muted">JR. Rain</span>
+                        <span class="card-text">
+                    <span>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                    </span><br>
+                    <span>(<span class="text-danger"> 120 </span><span class="text-muted">Reviews</span>)</span>
+                    <span class="text-danger h3 ps-5">$50</span>
+                    </span>
+                    
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card img-fluid">
+                    <img src="images/book1.jpeg" alt="book1">
+                    <span class="h5">Moon Dance</span>
+                        <span class="text-muted">JR. Rain</span>
+                        <span class="card-text">
+                    <span>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                    </span><br>
+                    <span>(<span class="text-danger"> 120 </span><span class="text-muted">Reviews</span>)</span>
+                    <span class="text-danger h3 ps-5">$50</span>
+                    </span>
+                    
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card img-fluid">
+                    <img src="images/book1.jpeg" alt="book1">
+                    <span class="h5">Moon Dance</span>
+                        <span class="text-muted">JR. Rain</span>
+                        <span class="card-text">
+                    <span>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                    </span><br>
+                    <span>(<span class="text-danger"> 120 </span><span class="text-muted">Reviews</span>)</span>
+                    <span class="text-danger h3 ps-5">$50</span>
+                    </span>
+                    
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card img-fluid">
+                    <img src="images/book1.jpeg" alt="book1">
+                    <span class="h5">Moon Dance</span>
+                        <span class="text-muted">JR. Rain</span>
+                        <span class="card-text">
+                    <span>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                        <i class="fa fa-star text-warning" aria-hidden="true"></i>
+                    </span><br>
+                    <span>(<span class="text-danger"> 120 </span><span class="text-muted">Reviews</span>)</span>
+                    <span class="text-danger h3 ps-5">$50</span>
+                    </span>
+                    
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-md-8">
+                    <div class="card img-fluid">
+                        <img src="images/bookpic.jpg" alt="book1" height="400px" >
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card img-fluid">
+                        <img src="images/dragon.jpeg" alt="book1" height="400px">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+<!-- caraousal2 -->
+
+<!--  -->
+        <!-- footer section -->
+        <footer class="text-center text-white my-4" style="background-color: #e91212">
+            <!-- Grid container -->
+            <div class="container">
+              <!-- Section: Links -->
+              <section class="mt-5">
+                <!-- Grid row-->
+                <div class="row text-center d-flex justify-content-center pt-5">
+                  <!-- Grid column -->
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                      <a href="#!" class="text-white">About us</a>
+                    </h6>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                      <a href="#!" class="text-white">Products</a>
+                    </h6>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                      <a href="#!" class="text-white">Awards</a>
+                    </h6>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                      <a href="#!" class="text-white">Help</a>
+                    </h6>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                      <a href="#!" class="text-white">Contact</a>
+                    </h6>
+                  </div>
+                  <!-- Grid column -->
+                </div>
+                <!-- Grid row-->
+              </section>
+              <!-- Section: Links -->
+        
+              <hr class="my-5" />
+        
+              <!-- Section: Text -->
+              <section class="mb-5">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-lg-8">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                      distinctio earum repellat quaerat voluptatibus placeat nam,
+                      commodi optio pariatur est quia magnam eum harum corrupti
+                      dicta, aliquam sequi voluptate quas.
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <!-- Section: Text -->
+        
+              <!-- Section: Social -->
+              <section class="text-center mb-5">
+                <a href="" class="text-white me-4">
+                  <i class="fa fa-facebook-f"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                  <i class="fa fa-google"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                  <i class="fa fa-instagram"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                  <i class="fa fa-github"></i>
+                </a>
+              </section>
+              <!-- Section: Social -->
+            </div>
+            <!-- Grid container -->
+        
+            <!-- Copyright -->
+            <div
+                 class="text-center p-3"
+                 style="background-color: rgba(0, 0, 0, 0.2)"
+                 >
+              © 2020 Copyright:
+              <a class="text-white" href="#"
+                 >ABCBookStore.com</a
+                >
+            </div>
+            <!-- Copyright -->
+          </footer>
+
+
+</body>
+
+</html>
